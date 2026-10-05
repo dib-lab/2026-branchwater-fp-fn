@@ -1,0 +1,15 @@
+[workspace]
+authors = ["C. Titus Brown <titus@idyll.org>"]
+channels = ["conda-forge"]
+name = "2026-branchwater-fp-fn"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+notebook = ">=7.6.3,<8"
+polars = ">=1.44.2,<2"
+matplotlib = ">=3.11.2,<4"
+numpy = ">=2.5.3,<3"
+scikit-learn = ">=1.9.1,<2"
